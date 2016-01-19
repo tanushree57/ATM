@@ -10,5 +10,4 @@ public class Component implements CarInterface {
 	public int getPrice() {
 		return price;
 	}
-
 }
