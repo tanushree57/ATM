@@ -6,14 +6,14 @@ public class Client {
 		
 		SubSystem engine = new SubSystem(); // Sub System
 		CarInterface piston = new Component(100);// Component
-		CarInterface carburator = new Component(250);
+		CarInterface fuelinjector = new Component(300);
 		engine.addItem(piston);
-		engine.addItem(carburator);
+		engine.addItem(fuelinjector);
 		car.addItem(engine);
 		
 		SubSystem body = new SubSystem(); // Sub System
-		CarInterface door = new Component(150);// Component
-		CarInterface window = new Component(350);
+		CarInterface door = new Component(400);// Component
+		CarInterface window = new Component(200);
 		engine.addItem(door);
 		engine.addItem(window);
 		car.addItem(body);

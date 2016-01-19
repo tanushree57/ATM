@@ -7,14 +7,13 @@ public class SubSystem implements CarInterface {
 
 	@Override
 	public int getPrice() {
-	// TODO Auto-generated method stub
-	for (CarInterface X : Subsytems)
-	price += X.getPrice();
-	return price;
+		for (CarInterface X : Subsytems)
+		price += X.getPrice();
+		return price;
 	}
 
 	public void addItem(CarInterface X) {
-	Subsytems.add(X);
+			Subsytems.add(X);
 	}
 
 }
