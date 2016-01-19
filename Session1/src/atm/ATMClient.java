@@ -1,7 +1,7 @@
 package atm;
 
 public class ATMClient {
-//check
+
 	public static void main(String[] args) {
 		Card mycard = new Card(100, 1234);
 		

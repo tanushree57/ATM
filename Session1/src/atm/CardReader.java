@@ -4,8 +4,6 @@ public class CardReader {
 	
 	Card card;
 	
-
-	
 	public void setCard(Card card) {
 		this.card = card;
 	}
@@ -20,6 +18,5 @@ public class CardReader {
 	public int getCardNo() {
 		return card.getCardNo();
 	}
-	
 
 }

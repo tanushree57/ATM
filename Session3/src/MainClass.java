@@ -3,7 +3,6 @@
 public class MainClass {
 
 	public static void main(String[] args) {
-		Car myCar = new Car();
 
 		Chassis carChassis = new Chassis();
 		carChassis.getprice();
@@ -24,10 +23,6 @@ public class MainClass {
 
 		System.out.println("Total price of the car is " + carParts.getprice());
 
-		/*
-		 * Car c1 = new Chassis(); Car c2 = new Chassis();
-		 * 
-		 * c1.getprice(); c2.getprice();
-		 */}
+		}
 
 }

@@ -1,10 +1,10 @@
-
+package queue;
 public class Client {
 
 	public static void main(String[] args) {
 
 		/* Queue Using ArrayList */
-		System.out.println("ArrayList");
+		System.out.println("Queue using ArrayList");
 
 		QueueArrayList queueList = new QueueArrayList();
 		queueList.add(1);
@@ -20,8 +20,8 @@ public class Client {
 		System.out.println();
 
 		/* Queue Using Arrays */
-		System.out.println("Arrays");
-		QueueArrays queueArray = new QueueArrays(1);
+		System.out.println("Queue using Arrays");
+		QueueArrays queueArray = new QueueArrays(3);
 		queueArray.disp();
 		System.out.println(queueArray.add(2));
 		System.out.println(queueArray.add(3));

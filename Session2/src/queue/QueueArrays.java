@@ -1,3 +1,5 @@
+package queue;
+
 public class QueueArrays {
 
 	private Object[] arr;
@@ -11,22 +13,22 @@ public class QueueArrays {
 	public String add(Object pushedElement) {
 		if (rear < arr.length - 1) {
 			arr[++rear] = pushedElement;
-			return "Success";
+			return "Enqueued " + pushedElement;
 		} else {
-			return "Overflow";
+			return "Overflow. Queue full.";
 		}
 	}
 
 	public Object remove() {
 		if (front > rear) {
-			return "Underflow";
+			return "Underflow. Queue empty.";
 		} else {
-			return arr[front++];
+			return "Dequeued " + arr[front++];
 		}
 	}
 
 	public void disp() {
-		System.out.print("Queue:");
+		System.out.print("Queue Elements: ");
 		for (int i = front; i <= rear; i++) {
 			System.out.print(arr[i] + "  ");
 		}

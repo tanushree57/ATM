@@ -35,7 +35,6 @@ public class Atm {
 			return 0;
 	}
 
-	
 	public boolean withdraw(float amount) {
 		if (accNo != 0) {
 				return myaccno.withdraw(amount);
@@ -43,5 +42,4 @@ public class Atm {
 		else
 			return false;
 	}
-
 }
